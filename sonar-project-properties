@@ -2,6 +2,10 @@ sonar.verbose=true
 sonar.organization=mostafazariaa
 sonar.projectKey=MOstafaZaRiaa_ci-cd-using-jenkins
 sonar.projectName=ci-cd-using-jenkins
+sonar.projectVersion=1.0
+sonar.sources=./src/main/java
 sonar.language=java
+sonar.java.binaries=.
+##to avoid this exception Caused by: org.tmatesoft.svn.core.SVNAuthenticationException: svn: E170001
+sonar.scm.disabled=True
 sonar.sourceEncoding=UTF-8
-sonar.sources=src
