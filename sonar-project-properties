@@ -5,5 +5,3 @@ sonar.projectName=ci-cd-using-jenkins
 sonar.language=java
 sonar.sourceEncoding=UTF-8
 sonar.sources=src
-sonar.java.binaries=target/classes
-sonar.coverage.jacoco.xmlReportPaths=target/site/jacoco/jacoco.xml
