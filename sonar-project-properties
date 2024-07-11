@@ -1,7 +1,7 @@
 sonar.verbose=true
 sonar.organization=mostafazariaa
-sonar.projectKey=mostafazariaa_cic
-sonar.projectName=cic
+sonar.projectKey=mostafazariaa_Namtrend
+sonar.projectName=Namtrend
 sonar.language=java
 sonar.sourceEncoding=UTF-8
 sonar.sources=.
