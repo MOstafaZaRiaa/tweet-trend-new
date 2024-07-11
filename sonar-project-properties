@@ -1,5 +1,5 @@
 sonar.verbose=true
-sonar.organization=mostafazariaa
+sonar.organization='Mostafa Ahmed'
 sonar.projectKey=ci-cd-using-jenkins
 sonar.projectName=ci-cd-jenkins
 sonar.language=java
