@@ -1,6 +1,6 @@
 sonar.verbose=true
 sonar.organization=mostafazariaa
-sonar.projectKey=mostafazariaa_ci-cd-using-jenkins
+sonar.projectKey=mostafazariaa_cic
 sonar.projectName=ci-cd-jenkins
 sonar.language=java
 sonar.sourceEncoding=UTF-8
