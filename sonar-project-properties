@@ -1,7 +1,7 @@
 sonar.verbose=true
-sonar.organization=namg04
-sonar.projectKey=namg04_namtrend
-sonar.projectName=Namtrend
+sonar.organization=mostafazariaa
+sonar.projectKey=MOstafaZaRiaa_ci-cd-using-jenkins
+sonar.projectName=ci-cd-using-jenkins
 sonar.language=java
 sonar.sourceEncoding=UTF-8
 sonar.sources=src
