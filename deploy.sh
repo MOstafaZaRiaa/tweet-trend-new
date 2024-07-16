@@ -11,6 +11,8 @@ if [ -n "$running_containers" ]; then
 
   # Remove all containers
   docker rm $running_containers
+
+  docker run -dt --name tweet -p 8000:8000 zariaa.jfrog.io/tweet-trend-docker-local/tweet-trend:2.1.2
 else
   echo "No running containers found."
   docker run -dt --name tweet -p 8000:8000 zariaa.jfrog.io/tweet-trend-docker-local/tweet-trend:2.1.2
