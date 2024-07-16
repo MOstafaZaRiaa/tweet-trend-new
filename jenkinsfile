@@ -92,8 +92,11 @@ pipeline {
         stage("Deploy") {
             steps {
                 script {
-                     sh 'chmod +x ./deploy.sh'
-                     sh 'sudo ./deploy.sh'
+                   docker.withRegistry(registry, 'jfrogartifact-credentials') {
+                         sh 'chmod +x ./deploy.sh'
+                         sh 'sudo ./deploy.sh'
+                    } 
+                     
                 }
             }
         }
