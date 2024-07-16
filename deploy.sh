@@ -13,7 +13,7 @@ if [ -n "$running_containers" ]; then
   docker rm $running_containers
 else
   echo "No running containers found."
-  docker run -dt --name tweet -p 8000:8000 zariaa.jfrog.io/namg-docker-local/tweet-trend:2.1.2
+  docker run -dt --name tweet -p 8000:8000 zariaa.jfrog.io/tweet-trend-docker-local/tweet-trend:2.1.2
 fi
 
 # Create a new container from the specified image
