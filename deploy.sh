@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Check if there are any running containers
-running_containers=$(docker ps -q)
+running_containers=$(docker ps -a -q)
 
 if [ -n "$running_containers" ]; then
   echo "Stopping and removing running containers..."
