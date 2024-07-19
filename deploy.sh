@@ -1,3 +1,3 @@
 #!/bin/sh
 minikube start --force
-kubectl apply -f deployment.yml
+minikube kubectl apply -f deployment.yml
