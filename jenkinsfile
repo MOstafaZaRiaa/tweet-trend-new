@@ -8,6 +8,7 @@ pipeline {
         PATH = "/opt/apache-maven-3.9.4/bin:$PATH"
     }
     stages {
+/*
         stage("Build") {
             steps {
                 echo "------- Build started --------"
@@ -88,7 +89,7 @@ pipeline {
                     echo '<--------------- Docker Publish Ended --------------->'  
                 }
             }
-        }
+        }*/
         stage("Deploy") {
             steps {
                 script {
