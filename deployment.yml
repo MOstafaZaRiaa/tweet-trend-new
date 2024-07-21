@@ -12,6 +12,8 @@ spec:
       labels:
         app:  valaxy-rtp
     spec:
+      imagePullSecrets:
+      - name: jfrogcred    
       containers:
       - name:  valaxy-rtp
         image: zariaa.jfrog.io/tweet-trend-docker-local/tweet-trend:2.1.2
