@@ -14,7 +14,7 @@ pipeline {
                 script {
                    docker.withRegistry(registry, 'jfrogartifact-credentials') {
                          sh 'chmod +x ./deploy.sh'
-                         sh 'sudo ./deploy.sh'
+                         sh './deploy.sh'
                     } 
                      
                 }
