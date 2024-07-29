@@ -1,11 +1,12 @@
-def registry = 'https://zariaa.jfrog.io'
-def imageName = 'zariaa.jfrog.io/tweet-trend-docker-local/tweet-trend'
+def registry = 'https://zariaa2.jfrog.io'
+def imageName = 'zariaa2.jfrog.io/tweet-trend-docker-local/tweet-trend'
 def version   = '2.1.2'
 
 pipeline {
     agent { label 'maven' }
     environment {
         PATH = "/opt/apache-maven-3.9.4/bin:$PATH"
+
     }
     stages {
         stage("build") {
@@ -100,3 +101,5 @@ pipeline {
         }
     }
 }
+
+
