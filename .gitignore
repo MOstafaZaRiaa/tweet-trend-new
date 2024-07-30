@@ -1,1 +1,7 @@
 ./target/*
+terraform/project/.terraform.lock.hcl
+terraform/project/.terraform/modules/modules.json
+terraform/project/.terraform/providers/registry.terraform.io/hashicorp/aws/5.57.0/windows_386/LICENSE.txt
+terraform/project/.terraform/providers/registry.terraform.io/hashicorp/aws/5.57.0/windows_386/terraform-provider-aws_v5.57.0_x5.exe
+terraform/project/.terraform/terraform.tfstate
+.gitignore
